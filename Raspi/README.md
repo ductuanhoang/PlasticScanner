@@ -69,10 +69,10 @@ in the folder MachineLearningModel there are the following files:
 - tflite_runtime-2.3.1-cp37-cp37m-linux_armv6l.whl ----Is used to install TFlite on a raspberry pi zero
 
 
-Hardware connection:
-Raspberry            Our board
-GPIO10(SPI0_MOSI)      DIN
-GPIO9 (SPI0_MISO)      DOUT
-GPIO11 (SCLK)          SCLK
-GPIO8                  DRDY
-GPIO25                 CS
+| Raspberry Pin     | Our board |
+| ---               | ---       |
+| GPIO10(SPI0_MOSI) | DIN       |
+| GPIO9 (SPI0_MISO) | DOUT      |
+| GPIO11 (SCLK)     | SCLK      |
+| GPIO8             | DRDY      |
+| GPIO25            | CS        |
